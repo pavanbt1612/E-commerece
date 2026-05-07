@@ -3,4 +3,4 @@ E-commerse it is online BUYing Product getting offers.This is online shoping mal
 
 Here can from boy's to Men's of dress are here. And also all propertices of men's like a Watches, belts, shoes , slippers , Matching dresses if you trending trends watch our instagram , facebook like is there website.social media information twitter 
 
-This is a simple structure and design Webpage uses  "HTML and CSS. For interactive page will come soon it is just for setting two Structure and design.
+This is a simple structure and design Webpage uses  "HTML and CSS". For interactive page will come soon "JavaScript" .
