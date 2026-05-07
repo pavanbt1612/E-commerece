@@ -1,0 +1,217 @@
+<!--- This is the simple webpage useing HTML Elements,tags, inline CSS and External CSS.Webpage is like a E-commerece --->
+<!---1st Assignment  Web Technologies --->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce webpage</title>
+	
+    <!--- THIS LINK IS DESIGN THE FONT FAMILY --->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <!--Social Meadia  logo from font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--- CSS LINK --->
+    <link rel="stylesheet" href="style11.css">
+
+
+</head>
+<body>
+
+    <!--- under the body tag there are all type of contents here -->
+
+    <header >
+		<p >MeetS FaShioN</p>
+		<!-- How to set the logo top of the left side with max-width and height -->
+		<!--- i try to fix it there was error "the position  will change of login , registr , p(Paragraph) will remove
+		  ( line-height of p)   --->
+     	<!---<img src="logo12.jpg" class="image" width="100px"  height="80px" alt="cmp_Logo"/> --->
+	     
+		<a href="newfrom.htm" target="_blank" class="button-link1">Registr</a>
+    	<a href="index.htm" target="_blank" class="button-link">Login</a>
+    	
+    </header>
+	<!---here also what i mention in aunchor tag  first that will visible on last in webpage  -->
+        <nav >
+            <a href="contact.htm" class="btn">Description</a>
+            <a href="contact.htm" class="btn">Contact Us</a>
+ 	    	<a href="products.htm" class="btn">Products</a>
+            <a href="contact.htm" class="btn">Shop</a>
+            <a href="mainpage.htm" class="btn">Home</a>
+
+	    <h4 style="color:#0affc6; ">FasHioN<span style="color:#fdfdfd; font-family:  Yellowtail, cursive">  <strong>Hub</strong></span></h4>
+
+        </nav>
+
+	<!-- here using division tag there set the image left anf right side-->
+	<div class="flex-container">
+	<img src="dressing.jpeg" class="frames" alt="looksdesigns"><br>
+	<img src="shopNow.jpeg" class="frames" alt="looksdesigns">
+	</div>
+	<hr>
+	<br>
+
+	<!---paragraph uses all text tags-->
+	<p class="para">
+		    we believe that<b> modern men deserve a wardrobe </b> that matches their <b> ambition.</b> 
+    		From sharp business attire to <strong> <em> relaxed weekend styles,</em> </strong> our mission is to 
+    		provide <mark> high-quality, sustainable fashion </mark> that makes you feel confident every single day.
+		</p>
+
+	<!--brake for next line and  horizontal tag for line-->	
+	<br><hr><br>
+	
+	<!--- container here uses flexbox for slides one deminasional-->
+	<div class="container">
+
+		<div class="box">
+			<p style="font-size: 20px;">PUMA<br>
+			<img src="T-shirt.webp" alt="fashionLogo" width="300px" height="150px" title="coton"><br>
+			<b>Men's Stylish T-shirt</b></p>
+			<p >coton dress best look<br>boy's<br><hr><strong> $500.00 </strong> PUMA shirt</p>
+
+			<!--desing button tag using Inline css-->
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer;">Order Now </button>
+		</div>
+
+	
+		<div class="box">
+			<p style="font-size: 20px;">Netplay<br>
+			<img src="shirtSq.avif" alt="fashionLogo" width="300px" height="150px" title="coton"><br>
+			<b>Flannel Shirts for Men </b> </p>
+			<p>Casual Button Down Plaid Shirt Jackets for Men<br>boy's<br><hr><strong> $1200.00 </strong> M shirt's</p>
+
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">Order Now </button>
+		</div>
+		
+	
+		<div class="box">
+
+			<p style="font-size: 20px;">john player<br>
+			<img src="orengeshirt.jpg" alt="fashionLogo" width="300px" height="150px" title="coton"><br>
+			<b>Men's Stylish T-shirt</b></p>
+			<p >coton dress best look<br>
+			boy's<br><hr>
+			<strong> $500.00 </strong> PUMA shirt</p>
+
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">Order Now </button>
+		</div>
+
+		<div class="box">
+
+			<p style="font-size: 20px;">Get Offer<br>
+			<img src="Chuck's.webp" alt="dress_image" width="400px" height="200px" title="coton" >
+			<p><b>Men's Stylish dresses</b></p>
+			<hr>
+
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More....</button>
+
+		</div>
+
+	</div>
+
+	<br><hr><br>
+	<h1>Jeans,Cargo Pants,formal pants,tech pants oreder get best from us </h1>
+<!--- grid calss here uses grid for slides two deminasional-->
+	<div class="grid1">
+	
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="jeans2.jpg" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="T-shirt.webp" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More....</button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="Tech1.jpg" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+		
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="pants.jpg" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="cargo.avif" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="tech_jeans.webp" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="black.jpg" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+
+		<div class="section1">
+			<p>Jeans</p>
+			<img src="jeans2.jpg" alt="fashionLogo" width="300px" height="150px" title="coton">
+			<p><b>Men's Stylish dresses</b></p>
+			<br><hr>
+			<button style="height: 50px; width: 100% ; background-color:#30068C; font-size: 25px; color: thistle; font-family: 'Yellowtail', cursive; border: none; cursor: pointer; border-radius: 5px;">View More </button>
+		</div>
+	</div>
+	
+<br><hr>
+	
+	<footer>
+		<h2>Contact us</h2>
+		<p><strong>Phone No:</strong>xxxxxxxxx<br><br>
+		<strong>Email id:</strong>abcsda@gmail.com
+		</p>
+
+		<h2>Social media</h2>
+		 <!--- Add icon library--->
+
+		<!--- Instagram --->
+		<a href="https://www.instagram.com/" target="_balnk" class="fa fa-instagram">Instagram</a><br/><br/>
+
+		<!--- Facebook --->
+		<a href="https:/www.facebook.com" target="_balnk" class="fa fa-facebook">facebook</a><br/><br/>
+		
+		<!--- twitter --->
+		<a href="https://x.com/?lang=en" target="_balnk" class="fa fa-twitter">Twitter</a><br>
+	
+
+		 <p><strong>The Best Version of You:</strong> "Style is a way to say who you are without having to speak." 
+    		We are dedicated to helping you find your unique look with the best fabrics and trend-setting designs.</p>
+	</footer>
+		
+		
+</body>
+</html>

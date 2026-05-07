@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            font-size: 30px;
+            text-align: center;
+            color: aliceblue;
+            background-color: rgb(17, 121, 86);
+        } 
+        .container {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            margin-top: 100px;
+            background-color:rgb(181, 250, 227);
+            padding:33px;
+            border-radius: 10px;
+        }  
+        #username, #password{
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-bottom: 2px solid #30068C;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        #login-btn{
+            height: 50px;
+            width: 100px;
+            background-color:#1d53c1;
+            font-size: 18px;
+            color: thistle;
+
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        </style>
+</head>
+<body>
+    <header >
+        <h1>Login forms</h1>   
+    </header>
+    <div class="container">
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" id="login-btn" value="Login">
+        </div>
+</body>
+</html>
